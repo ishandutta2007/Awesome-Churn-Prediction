@@ -1,209 +1,135 @@
-# Awesome-Churn-Prediction
+# Awesome Churn Prediction 🚀
 
-## Top Churn Prediction Platforms Ecosystem
+![Awesome Churn Prediction Banner](./assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Churn-Prediction"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Churn-Prediction?style=flat-square" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Churn-Prediction/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Churn-Prediction?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 📌 Top Churn Prediction & Customer Retention Platforms Ecosystem 📊
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+**A Curated List of Enterprise SaaS Products, Analytics Tools & Open-Source GitHub Projects**
 
-*Focused on Customer Health Scoring, Retention Automation, Revenue Forecasting & Proactive Engagement*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Churn Prediction**. These tools help Customer Success (CS), Revenue Operations, and Growth teams identify at-risk accounts, understand churn drivers, automate retention plays, and forecast recurring revenue.
-
-
-
-**Examples** include Vitally, ChurnZero, Gainsight, Totango, Catalyst, Planhat, Optimove, Amplitude Predict, Custify, and Velaris (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom health scoring, and transparent customer data — ideal for teams that need full control over their retention infrastructure without per-account SaaS fees or vendor lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Gainsight](https://www.gainsight.com/)**
-
-  The enterprise standard for Customer Success. Provides 360-degree customer views, health scores, success plans, journey orchestration, and revenue forecasting. Deep integration with Salesforce and CRM ecosystems. G2 rating: 4.4/5. Pricing is private but typically starts well above $20K/year .
-
-
-
-- **[Vitally](https://www.vitally.io/)**
-
-  Modern, developer-friendly Customer Success platform. Known for its clean API, flexible data model, and "Docs" feature for collaborative success plans. Implementation measured in weeks, not months. Strong automation engine for agile teams. Pricing typically well below Gainsight's, though still quote-based .
-
-
-
-- **[ChurnZero](https://churnzero.com/)**
-
-  Customer Success platform focused on real-time usage data and automated plays. Provides health scoring, in-app messaging, and churn alerts. Popular with mid-market B2B SaaS companies .
-
-
-
-- **[Totango](https://www.totango.com/)**
-
-  Customer Success platform with a modular, composable architecture. Offers health scores, success plays, and customer communities. Acquired by SAP in 2024 .
-
-
-
-- **[Catalyst](https://catalyst.io/)**
-
-  Customer Success platform focused on data-driven account management. Provides health scoring, playbooks, and revenue forecasting.
-
-
-
-- **[Planhat](https://www.planhat.com/)**
-
-  Customer platform combining CS, sales, and product data. Strong for European companies with flexible data modeling and automation.
-
-
-
-- **[Optimove](https://www.optimove.com/)**
-
-  Customer-led growth platform with AI-powered churn prediction and retention marketing. Focuses on B2C and B2B2C engagement.
-
-
-
-- **[Amplitude Predict](https://amplitude.com/)**
-
-  Product analytics platform with AI-powered churn prediction and behavioral cohort analysis. Predicts churn from product usage patterns.
-
-
-
-- **[Custify](https://www.custify.com/)**
-
-  Customer Success platform for SMB and mid-market SaaS. Provides health scores, automated tasks, and churn alerts at accessible price points.
-
-
-
-- **[Velaris](https://www.velaris.io/)**
-
-  Customer Success platform with AI-powered health scoring, churn prediction, and automation. Focuses on B2B SaaS retention.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[ChurnPilot](https://github.com/sehidesena/ChurnPilot)**
-
-  **The most complete open-source churn prediction platform for e-commerce.** An intelligent platform that automates churn prediction and customer retention processes with **Agentic AI** . Flexible architecture designed for easy implementation and scaling across different sectors (originally telecom, pivoted to e-commerce). Provides ML-based churn scoring with feature engineering including `order_count`, `days_since_last_order` (recency), `MembershipTier`, and `ProductCategory` . **Open source**.
-
-
-
-- **[Customer Intelligence for WooCommerce](https://wordpress.org/plugins/customer-intelligence-for-woocommerce/)**
-
-  **The most mature open-source churn prediction tool for WooCommerce stores.** 100% WordPress-native with **no external API calls** — all processing happens on your server . Features: **Churn Prediction** with heuristic churn-risk scoring and configurable thresholds; **RFM Segmentation** with visual 5×5 matrix classifying customers into Champions, Loyal, At Risk, Lost, and more; **Customer Lifetime Value (CLV)** prediction; **Cohort Retention Heatmap**; and **Segment Export** compatible with Mailchimp, Klaviyo, and ConvertKit . Named as a free open-source alternative to Metorik ($50-200/mo) and Glew.io ($79+/mo) . **Open source**.
-
-
-
-- **[CRMlytics](https://wordpress.org/plugins/crmlytics/)**
-
-  **WooCommerce-native CRM with predictive churn analytics.** Combines machine learning, customer management, and email campaigns in one unified plugin . Features: **Churn risk identification** with health scores (0-100 scale: Excellent, Healthy, Good, Weak, Critical); **Customer Health Scoring** based on buying behavior; **RFM (Recency, Frequency, Monetary)** segmentation with visual matrix; **Expected future orders** prediction (30, 90, 180 days); and **Email campaign manager** targeted by segment . All processing runs locally — no external APIs, no monthly fees . **Open source**.
-
-
-
-- **[Sentiment Evolution Tracker (MCP)](https://huggingface.co/spaces/MCP-1st-Birthday/mcp-nlp-analytics)**
-
-  **Enterprise-ready MCP server for sentiment-based churn prediction.** Runs as a Model Context Protocol server that Claude (or any MCP-compatible LLM) can invoke . Features: **Churn probability scoring** with configurable thresholds; **Automated trend detection** (RISING/DECLINING/STABLE); **Real-time alerts** when risk exceeds 70%; **Persistent customer histories** in SQLite; and **Seven MCP tools** including `analyze_sentiment_evolution`, `detect_risk_signals`, `predict_next_action`, `get_high_risk_customers`, and `get_database_statistics` . Python 3.10+ with TextBlob and NLTK. **Open source**.
-
-
-
-- **[SuiteCRM](https://github.com/salesagility/SuiteCRM)**
-
-  **The world's most popular open-source CRM.** Can be fully customized to replicate Gainsight's 360-degree views and health metrics for **$0** . You own the data entirely with massive community support. **Requires a developer/admin** to set up the "Success" logic and health scores manually . 26,887+ stars. **AGPL-3.0**.
-
-
-
-- **[Twenty](https://github.com/twentyhq/twenty)**
-
-  **Modern open-source CRM built to replace Salesforce.** Highly flexible data model allows building custom Customer Success workflows for free . Natively collaborative for teams. Still in active development with a leaner feature set than SuiteCRM . **AGPL-3.0**.
-
-
-
-- **[Helio](https://github.com/achref-soua/helio)**
-
-  **Open-source growth platform with CDP, segmentation, and cross-channel journeys.** AI-native marketing automation that can be adapted for churn prediction and retention campaigns . Features: multi-tenant isolation with PostgreSQL row-level security; ClickHouse for analytics; Temporal for journey orchestration; and **~20,000 events/s ingestion capacity** . Self-hostable via Docker Compose or Helm. **Open source**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **E-commerce Churn Prediction**: **Customer Intelligence for WooCommerce** (most mature, no external APIs), **CRMlytics** (health scores + email campaigns), **ChurnPilot** (Agentic AI, ML-based) .
-
-- **CRM Foundations**: **SuiteCRM** (26,887 stars, fully customizable), **Twenty** (modern, flexible data model), **Odoo** (integrated ERP + CRM) .
-
-- **MCP/AI-Powered**: **Sentiment Evolution Tracker** (LLM-invocable churn prediction via MCP) .
-
-- **Growth Infrastructure**: **Helio** (CDP + segmentation + journeys, ~20k events/s) .
-
-
-
-**Frameworks for building custom systems**: Combine **SuiteCRM** or **Twenty** for the CRM foundation, **Customer Intelligence for WooCommerce** for e-commerce churn prediction, **ChurnPilot** for ML-based scoring, and **Sentiment Evolution Tracker** for LLM-powered risk detection. Add **PostgreSQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Churn prediction platforms handle sensitive customer data; ensure compliance with GDPR, CCPA, and relevant data protection regulations.
-
-- **Open-source reality**: The open-source ecosystem for churn prediction is **concentrated in e-commerce** (**Customer Intelligence for WooCommerce**, **CRMlytics**, **ChurnPilot**) and **CRM foundations** (**SuiteCRM**, **Twenty**) . For **B2B SaaS churn prediction** with product usage analytics, health scoring across multiple data sources, and automated success plays, commercial platforms (Gainsight, Vitally, ChurnZero) remain the primary choice. The open-source path requires significant custom development to match enterprise CS platform capabilities.
-
-
+*Focused on Customer Health Scoring 🎯, Retention Automation 🤖, Revenue Forecasting 📈, Behavioral Analytics & Proactive Account Engagement*
 
 ---
 
+## 💡 Industry Overview & Market Intelligence 🌐
 
+> **Market Size & Structure**: The global Customer Success and Churn Prediction Software market size is estimated at **$1.8 Billion to $2.2 Billion**, projecting growth at a CAGR of **18.5%** toward **$5.5+ Billion**. 
+> 
+> **Market Dynamics**: The market is **moderately fragmented**, bridging enterprise-grade Customer Success Platforms (CSPs like Gainsight and ChurnZero) and product analytics tools (like Amplitude and PostHog). While market leaders capture high enterprise spend, specialized e-commerce churn engines, warehouse-first CDPs, and open-source models maintain strong market share, preventing a "winner-take-all" concentration.
 
-**Made for Customer Success leaders, Revenue Operations teams, and retention-focused product managers.**
+---
 
-Let's make churn prediction more open, transparent, and actionable.
+## 📑 Table of Contents
+
+- [☁️ SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+The table below summarizes leading commercial platforms for customer churn prediction, health scoring, and customer success management, sorted by **Estimated Scale / Market Cap (Descending)**:
+
+| Platform | Key Focus & Features | Starting Tier Price 💳 | Free Tier / Trial Limit ⏳ | Est. Scale / Valuation / Market Cap 🏢 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amplitude](https://amplitude.com/)** | Product analytics with AI churn prediction & behavioral cohort tracking | $0/mo (Starter/Plus volume model) | **Free Forever**: 2 Million events/month limit | **~$1.65 Billion** (Public: NASDAQ `AMPL`) |
+| **[Gainsight](https://www.gainsight.com/)** | Enterprise CS standard: 360° views, health scores, journey orchestration | ~$14,000/year (Essentials tier estimate) | **No Free Tier / No Self-Serve Trial** (Guided sales demo only) | **~$1.1 Billion** (Acquired by Vista Equity) / ~$300M ARR |
+| **[Optimove](https://www.optimove.com/)** | AI-powered churn prediction & customer-led marketing orchestration | ~$48,000/year (Custom enterprise tier) | **No Free Tier / No Self-Serve Trial** (Custom proof-of-concept) | **~$79.2 Million** ARR |
+| **[ChurnZero](https://churnzero.com/)** | Real-time usage tracking, automated success plays & churn alerts | ~$12,000/year (Base account tier) | **No Free Tier / No Self-Serve Trial** (Sales demo sandbox available) | **~$60.0 Million** ARR |
+| **[Catalyst](https://catalyst.io/)** | Data-driven CS management, account health scoring & revenue forecasting | ~$20,000/year (Growth tier estimate) | **No Free Tier / No Self-Serve Trial** (Sales-guided demo) | **~$44.2 Million** ARR / $100M+ Valuation |
+| **[Planhat](https://www.planhat.com/)** | Flexible customer data platform combining CS, sales & product metrics | ~$30,000/year (Base platform contract) | **No Free Tier / No Self-Serve Trial** (Custom implementation) | **~$33.0 Million** ARR |
+| **[Vitally](https://www.vitally.io/)** | Developer-friendly CS platform with collaborative docs & flexible APIs | ~$300/mo ($3,600/year base platform) | **No Free Tier / 14-Day Sales Sandbox Trial** | **~$25.0 Million** ARR |
+| **[Velaris](https://www.velaris.io/)** | AI-driven CS platform with health scoring & automated retention plays | ~$9,000/year (Starter organization plan) | **No Free Tier / 14-Day Guided Trial** | **~$11.2 Million** ARR |
+| **[Totango](https://www.totango.com/)** | Modular CS architecture with success plays & customer journey design | ~$15,000/year (Composable CS plan) | **No Free Tier / 30-Day Enterprise Trial** | **Private** (Acquired by SAP in 2024) |
+| **[Custify](https://www.custify.com/)** | SMB & mid-market CS platform with automated tasks & health alerts | ~$600/month (~$7,200/year starter) | **No Free Tier / 14-Day Sales Demo Trial** | **Private** (Growing SMB Market) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below are top open-source projects for self-hosted customer churn prediction, CRM foundations, warehouse-first analytics, and sentiment tracking. Ranked by **GitHub Star Count (Descending)**:
+
+- **[Odoo](https://github.com/odoo/odoo)** <a href="https://github.com/odoo/odoo/stargazers"><img src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo Stars"/></a>  
+  **Enterprise ERP & CRM platform.** Offers customizable customer tracking, predictive sales pipeline analysis, and churn prevention modules for fully self-hosted organizations. **LGPL-3.0**.
+
+- **[PostHog](https://github.com/PostHog/posthog)** <a href="https://github.com/PostHog/posthog/stargazers"><img src="https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white" alt="PostHog Stars"/></a>  
+  **Open-source product analytics suite.** Self-hosted alternative to Amplitude and Mixpanel with session recording, feature flags, cohort analysis, and retention funnels. **MIT**.
+
+- **[SuiteCRM](https://github.com/salesagility/SuiteCRM)** <a href="https://github.com/salesagility/SuiteCRM/stargazers"><img src="https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white" alt="SuiteCRM Stars"/></a>  
+  **The enterprise open-source CRM.** Fully customizable to build Gainsight-style 360-degree customer health scoring and churn risk management workflows without license fees. **AGPL-3.0**.
+
+- **[Twenty](https://github.com/twentyhq/twenty)** <a href="https://github.com/twentyhq/twenty/stargazers"><img src="https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white" alt="Twenty Stars"/></a>  
+  **Modern open-source CRM built as a Salesforce alternative.** Features a highly extensible data model ideal for building custom Customer Success metrics and account retention tracking. **AGPL-3.0**.
+
+- **[RudderStack Open Source](https://github.com/rudderlabs/rudder-server)** <a href="https://github.com/rudderlabs/rudder-server/stargazers"><img src="https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white" alt="RudderStack Stars"/></a>  
+  **Warehouse-first customer data platform (CDP).** Collects and routes customer behavioral data directly into your data warehouse for building custom ML churn prediction pipelines. **SSPL**.
+
+- **[Helio](https://github.com/achref-soua/helio)** <a href="https://github.com/achref-soua/helio/stargazers"><img src="https://img.shields.io/github/stars/achref-soua/helio?style=social&color=white" alt="Helio Stars"/></a>  
+  **Open-source CDP & journey orchestration engine.** High-throughput (~20,000 events/s) growth platform built with PostgreSQL and ClickHouse for automated customer retention campaigns. **Open Source**.
+
+- **[ChurnPilot](https://github.com/sehidesena/ChurnPilot)** <a href="https://github.com/sehidesena/ChurnPilot/stargazers"><img src="https://img.shields.io/github/sehidesena/ChurnPilot?style=social&color=white" alt="ChurnPilot Stars"/></a>  
+  **Agentic AI churn prediction engine.** Automated ML platform tailored for e-commerce and SaaS customer retention using recency, frequency, and custom feature scoring. **Open Source**.
+
+- **[CRMlytics](https://wordpress.org/plugins/crmlytics/)**  
+  **WooCommerce-native predictive CRM.** Features local machine learning churn risk identification, customer health scoring (0-100 scale), RFM matrices, and targeted email campaigns without third-party API dependencies. **GPLv2**.
+
+- **[Customer Intelligence for WooCommerce](https://wordpress.org/plugins/customer-intelligence-for-woocommerce/)**  
+  **WooCommerce churn prediction & analytics plugin.** Provides RFM segmentation matrices, Customer Lifetime Value (CLV) predictions, and cohort retention heatmaps directly on WordPress. **GPLv2**.
+
+- **[Sentiment Evolution Tracker (MCP)](https://huggingface.co/spaces/MCP-1st-Birthday/mcp-nlp-analytics)**  
+  **Model Context Protocol (MCP) server for LLM churn scoring.** Enables Claude and other AI models to evaluate real-time sentiment evolution, detect customer risk signals, and query persistent SQLite customer logs. **Open Source**.
+
+---
+
+## 🛠️ Frameworks for Custom Churn Infrastructure 🏗️
+
+For engineering teams looking to build a custom retention stack:
+1. **CDP & Data Ingestion**: Use **RudderStack** or **Helio** for event streams.
+2. **Product & Cohort Analytics**: Deploy **PostHog** for behavioral retention tracking.
+3. **CRM & Account Management**: Use **Twenty** or **SuiteCRM** for core account data.
+4. **Predictive Analytics & AI**: Integrate **ChurnPilot** or **Sentiment Evolution Tracker** for ML scoring.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to expand this list are always welcome! ✨
+
+1. **Fork** the repository. 🍴
+2. **Add/Edit** entries in `README.md` following the table or list format. ✏️
+3. Ensure description includes key features, pricing/license information, and official links. 🔗
+4. Submit a **Pull Request** with a clear explanation of additions. 🚀
+
+---
+
+## 💖 Support & Community
+
+If you find this repository helpful, please consider starring ⭐, forking 🍴, or sharing it with your network!
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)
+
+Your support helps maintain and update open-source developer tools and curated resources. Thank you! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Churn-Prediction&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Churn-Prediction&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational and research purposes.
+- Churn prediction tools process sensitive user data; ensure full compliance with **GDPR**, **CCPA**, and enterprise data security policies.
+- Commercial details (pricing, ARR, valuations) reflect best available estimates as of late 2026 and are subject to vendor updates.
